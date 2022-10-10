@@ -1,0 +1,53 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    padding-top: 80px;
+}
+
+a {
+    color: #5c9f24;
+}
+
+a:hover {
+    color: #74c92d;
+    text-decoration: none;
+}
+
+
+#header {
+    background: lightcyan;
+    padding: 15px;
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header .logo a {
+    color: black;
+}
+
+
+
+.nav-menu {
+    position: relative;
+    left: 100px;
+}
+.nav-search {
+    position: relative;
+    left: 300px;
+}
+.nav-profile {
+    position: relative;
+    left: 700px;
+
+}
+
+.profile-area {
+    display: flex;
+}

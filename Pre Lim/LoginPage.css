@@ -1,0 +1,44 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+a {
+    color: #5c9f24;
+}
+
+a:hover {
+    color: #74c92d;
+    text-decoration: none;
+}
+
+
+#header {
+    background: black;
+    padding: 15px;
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header .logo a {
+    color: #fff;
+}
+
+
+
+.nav-menu {
+    position: relative;
+    left: 1000px;
+}
+
+.modal-header {
+    background: orange;
+    color: #fff;
+}
